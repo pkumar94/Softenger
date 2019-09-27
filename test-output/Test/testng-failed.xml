@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Test]" parallel="tests">
+  <test name="TC 02 Verify Search product funcationality_Instance_1(failed)" parallel="tests">
+    <parameter name="temp" value="temp1"/>
+    <parameter name="appURL" value="https://ahead-madrid.qtstage.io"/>
+    <parameter name="tcID" value="TC 02 Verify Search product funcationality"/>
+    <parameter name="browserType" value="CHROME"/>
+    <classes>
+      <class name="com.qtstage.Tests.DecathlonSearchProductTest">
+        <methods>
+          <include name="tc_SearchProduct" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qtstage.Tests.DecathlonSearchProductTest -->
+    </classes>
+  </test> <!-- TC 02 Verify Search product funcationality_Instance_1(failed) -->
+</suite> <!-- Failed suite [Test] -->
